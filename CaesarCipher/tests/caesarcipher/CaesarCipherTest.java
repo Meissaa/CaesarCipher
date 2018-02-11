@@ -21,8 +21,7 @@ public class CaesarCipherTest {
 	public void calculatemostLetterEncryptMessageTest() {
 
 		Assert.assertEquals('K', CaesarCipher.calculatemostLetterEncryptMessage("KVKWKUYDK", 9));
-		// sprawdza, czy wynik metody dla konkretnych argumentów jest równy
-		// oczekiwanemu(w tym wypadku K);
+		
 	}
 
 	@Test
